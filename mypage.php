@@ -11,7 +11,7 @@ use MicrosoftAzure\Storage\Table\Models\Filters\Filter;
 $accountName = "bonifs1storageacct";
 $accountKey = "pUE+2jvsFESmzn7B37lCzdbzdDrXkmYrBA7fug0wOMv662yaHrBP3dmOZFf7sNq++rJh/XtuWQjmtkzcJJ2phg==";
 //Set azure storage table name
-$tableName = "testPaginationTable";
+$tableName = "myNewTable";
 
 $connectionString = 'DefaultEndpointsProtocol=https;AccountName=' . $accountName . ';AccountKey=' .$accountKey. '';
 $tableClient = ServicesBuilder::getInstance()->createTableService($connectionString);
